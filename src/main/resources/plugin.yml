@@ -1,0 +1,12 @@
+name: StaffMods
+main: com.ejemplo.staffmods.StaffModsPlugin
+version: 1.0
+api-version: '26.3'
+depend: [Apollo-Bukkit]
+commands:
+  staffmods:
+    description: Activa o desactiva los staff mods
+    permission: staff.mods
+permissions:
+  staff.mods:
+    default: op
